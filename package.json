@@ -1,0 +1,19 @@
+{
+  "name": "socket-app",
+  "version": "1.0.0",
+  "description": "A simple bidirectional communication channel with socket.io on nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "Abdullah Sunça",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "isomorphic-fetch": "^2.2.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
